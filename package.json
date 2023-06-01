@@ -1,0 +1,19 @@
+{
+  "name": "untitledbot-loging",
+  "version": "1.0.0",
+  "description": "Untitledのロギングシステムであり、data spaceを使います。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuito-it/UntitledBot-LogingSystem.git"
+  },
+  "author": "yuito-it",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yuito-it/UntitledBot-LogingSystem/issues"
+  },
+  "homepage": "https://github.com/yuito-it/UntitledBot-LogingSystem#readme"
+}

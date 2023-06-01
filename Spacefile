@@ -1,0 +1,14 @@
+# Spacefile Docs: https://go.deta.dev/docs/spacefile/v0
+v: 0
+icon: ./icon.png
+micros:
+  - name: UntitledBot
+    src: ./
+    engine: nodejs16
+    primary: true
+    public: true
+    presets:
+      env:
+        - name: DISCORD_TOKEN
+          description: Discord's TOKEN
+          default: "MTExMDE2MzYyODIyMjU5MTEwNw.GaDntw.KT8YSVrxne4GmZiXl4afIYCMeNcBVLTum4ED3I"
