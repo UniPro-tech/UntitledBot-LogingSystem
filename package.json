@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/yuito-it/UntitledBot-LogingSystem/issues"
   },
-  "homepage": "https://github.com/yuito-it/UntitledBot-LogingSystem#readme"
+  "homepage": "https://github.com/yuito-it/UntitledBot-LogingSystem#readme",
+  "dependencies": {
+    "deta": "^1.1.0",
+    "express": "^4.18.2"
+  }
 }

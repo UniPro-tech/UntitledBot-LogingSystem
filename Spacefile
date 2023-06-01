@@ -7,8 +7,3 @@ micros:
     engine: nodejs16
     primary: true
     public: true
-    presets:
-      env:
-        - name: DISCORD_TOKEN
-          description: Discord's TOKEN
-          default: "MTExMDE2MzYyODIyMjU5MTEwNw.GaDntw.KT8YSVrxne4GmZiXl4afIYCMeNcBVLTum4ED3I"
