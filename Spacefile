@@ -1,9 +1,0 @@
-# Spacefile Docs: https://go.deta.dev/docs/spacefile/v0
-v: 0
-icon: ./icon.png
-micros:
-  - name: UntitledBot
-    src: ./
-    engine: nodejs16
-    public_routes:
-    - "/test"
