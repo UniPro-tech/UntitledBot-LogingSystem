@@ -5,5 +5,5 @@ micros:
   - name: UntitledBot
     src: ./
     engine: nodejs16
-    primary: true
-    public: true
+    public_routes:
+    - "/test"
