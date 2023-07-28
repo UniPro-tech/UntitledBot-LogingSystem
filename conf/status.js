@@ -7,8 +7,7 @@ const db = deta.Base('log-conf');
 /* GET users listing. */
 router.get('/v1/conf/status', function (req, res, next) {
     try {
-        db.put(req, "status");
-        var data = { states: 200 };
+        var data = db.get("status");
         res.status(200).json(data);
     }
     catch (err) {
