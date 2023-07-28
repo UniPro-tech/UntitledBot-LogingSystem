@@ -5,7 +5,7 @@ const deta = Deta();
 const db = deta.Base('log-conf');
 
 /* GET users listing. */
-router.get('/v1/conf/status', function (req, res, next) {
+router.get('/', function (req, res, next) {
     try {
         var data = db.get("status");
         res.status(200).json(data);
@@ -15,9 +15,9 @@ router.get('/v1/conf/status', function (req, res, next) {
         throw err;
     }
 });
-router.post('/v1/conf/status', (req, res, next) => {
+router.post('/', (req, res, next) => {
     try{
-        db.put(req.body);
+        db.put(req.body,"status");
     }
     catch(err){
         res.status(500).json(err);
